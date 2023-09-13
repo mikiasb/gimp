@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3F232AB24D4C00CB8C68 /* gimpmodule.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmodule.c; sourceTree = "<group>"; };
+		678A3F242AB24D4C00CB8C68 /* gimpmoduledb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmoduledb.h; sourceTree = "<group>"; };
+		678A3F252AB24D4C00CB8C68 /* gimpmoduletypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmoduletypes.h; sourceTree = "<group>"; };
+		678A3F262AB24D4C00CB8C68 /* gimpmodule.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpmodule.def; sourceTree = "<group>"; };
+		678A3F272AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3F282AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3F292AB24D4C00CB8C68 /* gimpmoduledb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmoduledb.c; sourceTree = "<group>"; };
+		678A3F2A2AB24D4C00CB8C68 /* gimpmodule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmodule.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3F1D2AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3F232AB24D4C00CB8C68 /* gimpmodule.c */,
+				678A3F242AB24D4C00CB8C68 /* gimpmoduledb.h */,
+				678A3F252AB24D4C00CB8C68 /* gimpmoduletypes.h */,
+				678A3F262AB24D4C00CB8C68 /* gimpmodule.def */,
+				678A3F272AB24D4C00CB8C68 /* meson.build */,
+				678A3F282AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3F292AB24D4C00CB8C68 /* gimpmoduledb.c */,
+				678A3F2A2AB24D4C00CB8C68 /* gimpmodule.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3F222AB24D4C00CB8C68 /* libgimpmodule */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3F2B2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpmodule" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimpmodule;
+			dependencies = (
+			);
+			name = libgimpmodule;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimpmodule;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3F1E2AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3F212AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpmodule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3F1D2AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3F222AB24D4C00CB8C68 /* libgimpmodule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3F1F2AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3F202AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3F2C2AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpmodule;
+			};
+			name = Debug;
+		};
+		678A3F2D2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpmodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3F212AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpmodule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F1F2AB24D4C00CB8C68 /* Debug */,
+				678A3F202AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3F2B2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpmodule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F2C2AB24D4C00CB8C68 /* Debug */,
+				678A3F2D2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3F1E2AB24D4C00CB8C68 /* Project object */;
+}

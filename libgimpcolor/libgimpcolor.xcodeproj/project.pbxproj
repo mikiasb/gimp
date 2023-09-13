@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3EC12AB24D4C00CB8C68 /* gimpcairo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcairo.c; sourceTree = "<group>"; };
+		678A3EC22AB24D4C00CB8C68 /* gimpbilinear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbilinear.h; sourceTree = "<group>"; };
+		678A3EC32AB24D4C00CB8C68 /* gimphsv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimphsv.h; sourceTree = "<group>"; };
+		678A3EC42AB24D4C00CB8C68 /* gimpcolortransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolortransform.h; sourceTree = "<group>"; };
+		678A3EC52AB24D4C00CB8C68 /* gimphsl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimphsl.c; sourceTree = "<group>"; };
+		678A3EC62AB24D4C00CB8C68 /* gimpcolortypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolortypes.h; sourceTree = "<group>"; };
+		678A3EC72AB24D4C00CB8C68 /* gimpcolorspace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolorspace.h; sourceTree = "<group>"; };
+		678A3EC82AB24D4C00CB8C68 /* gimppixbuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppixbuf.c; sourceTree = "<group>"; };
+		678A3EC92AB24D4C00CB8C68 /* gimpcolormanaged.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolormanaged.h; sourceTree = "<group>"; };
+		678A3ECA2AB24D4C00CB8C68 /* gimpadaptivesupersample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpadaptivesupersample.c; sourceTree = "<group>"; };
+		678A3ECB2AB24D4C00CB8C68 /* gimprgb-parse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimprgb-parse.c"; sourceTree = "<group>"; };
+		678A3ECC2AB24D4C00CB8C68 /* gimprgb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimprgb.c; sourceTree = "<group>"; };
+		678A3ECD2AB24D4C00CB8C68 /* gimpcolorprofile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolorprofile.h; sourceTree = "<group>"; };
+		678A3ECE2AB24D4C00CB8C68 /* gimpcolor.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpcolor.def; sourceTree = "<group>"; };
+		678A3ECF2AB24D4C00CB8C68 /* gimpcmyk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcmyk.c; sourceTree = "<group>"; };
+		678A3ED02AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3ED12AB24D4C00CB8C68 /* gimpcolortransform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcolortransform.c; sourceTree = "<group>"; };
+		678A3ED22AB24D4C00CB8C68 /* gimphsv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimphsv.c; sourceTree = "<group>"; };
+		678A3ED32AB24D4C00CB8C68 /* gimpbilinear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbilinear.c; sourceTree = "<group>"; };
+		678A3ED42AB24D4C00CB8C68 /* gimpcairo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcairo.h; sourceTree = "<group>"; };
+		678A3ED52AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3ED62AB24D4C00CB8C68 /* gimpcolor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcolor.h; sourceTree = "<group>"; };
+		678A3ED72AB24D4C00CB8C68 /* gimpcolormanaged.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcolormanaged.c; sourceTree = "<group>"; };
+		678A3ED82AB24D4C00CB8C68 /* gimpcolorspace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcolorspace.c; sourceTree = "<group>"; };
+		678A3ED92AB24D4C00CB8C68 /* gimppixbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppixbuf.h; sourceTree = "<group>"; };
+		678A3EDA2AB24D4C00CB8C68 /* gimphsl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimphsl.h; sourceTree = "<group>"; };
+		678A3EDB2AB24D4C00CB8C68 /* gimprgb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimprgb.h; sourceTree = "<group>"; };
+		678A3EDC2AB24D4C00CB8C68 /* gimpadaptivesupersample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpadaptivesupersample.h; sourceTree = "<group>"; };
+		678A3EDD2AB24D4C00CB8C68 /* test-color-parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-color-parser.c"; sourceTree = "<group>"; };
+		678A3EDE2AB24D4C00CB8C68 /* gimpcmyk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcmyk.h; sourceTree = "<group>"; };
+		678A3EDF2AB24D4C00CB8C68 /* gimpcolorprofile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcolorprofile.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3EBB2AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3EC12AB24D4C00CB8C68 /* gimpcairo.c */,
+				678A3EC22AB24D4C00CB8C68 /* gimpbilinear.h */,
+				678A3EC32AB24D4C00CB8C68 /* gimphsv.h */,
+				678A3EC42AB24D4C00CB8C68 /* gimpcolortransform.h */,
+				678A3EC52AB24D4C00CB8C68 /* gimphsl.c */,
+				678A3EC62AB24D4C00CB8C68 /* gimpcolortypes.h */,
+				678A3EC72AB24D4C00CB8C68 /* gimpcolorspace.h */,
+				678A3EC82AB24D4C00CB8C68 /* gimppixbuf.c */,
+				678A3EC92AB24D4C00CB8C68 /* gimpcolormanaged.h */,
+				678A3ECA2AB24D4C00CB8C68 /* gimpadaptivesupersample.c */,
+				678A3ECB2AB24D4C00CB8C68 /* gimprgb-parse.c */,
+				678A3ECC2AB24D4C00CB8C68 /* gimprgb.c */,
+				678A3ECD2AB24D4C00CB8C68 /* gimpcolorprofile.h */,
+				678A3ECE2AB24D4C00CB8C68 /* gimpcolor.def */,
+				678A3ECF2AB24D4C00CB8C68 /* gimpcmyk.c */,
+				678A3ED02AB24D4C00CB8C68 /* meson.build */,
+				678A3ED12AB24D4C00CB8C68 /* gimpcolortransform.c */,
+				678A3ED22AB24D4C00CB8C68 /* gimphsv.c */,
+				678A3ED32AB24D4C00CB8C68 /* gimpbilinear.c */,
+				678A3ED42AB24D4C00CB8C68 /* gimpcairo.h */,
+				678A3ED52AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3ED62AB24D4C00CB8C68 /* gimpcolor.h */,
+				678A3ED72AB24D4C00CB8C68 /* gimpcolormanaged.c */,
+				678A3ED82AB24D4C00CB8C68 /* gimpcolorspace.c */,
+				678A3ED92AB24D4C00CB8C68 /* gimppixbuf.h */,
+				678A3EDA2AB24D4C00CB8C68 /* gimphsl.h */,
+				678A3EDB2AB24D4C00CB8C68 /* gimprgb.h */,
+				678A3EDC2AB24D4C00CB8C68 /* gimpadaptivesupersample.h */,
+				678A3EDD2AB24D4C00CB8C68 /* test-color-parser.c */,
+				678A3EDE2AB24D4C00CB8C68 /* gimpcmyk.h */,
+				678A3EDF2AB24D4C00CB8C68 /* gimpcolorprofile.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3EC02AB24D4C00CB8C68 /* libgimpcolor */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3EE02AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpcolor" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimpcolor;
+			dependencies = (
+			);
+			name = libgimpcolor;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimpcolor;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3EBC2AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3EBF2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpcolor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3EBB2AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3EC02AB24D4C00CB8C68 /* libgimpcolor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3EBD2AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3EBE2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3EE12AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpcolor;
+			};
+			name = Debug;
+		};
+		678A3EE22AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpcolor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3EBF2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpcolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3EBD2AB24D4C00CB8C68 /* Debug */,
+				678A3EBE2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3EE02AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpcolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3EE12AB24D4C00CB8C68 /* Debug */,
+				678A3EE22AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3EBC2AB24D4C00CB8C68 /* Project object */;
+}

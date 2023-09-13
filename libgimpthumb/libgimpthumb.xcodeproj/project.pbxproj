@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3F342AB24D4C00CB8C68 /* gimpthumb-error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpthumb-error.h"; sourceTree = "<group>"; };
+		678A3F352AB24D4C00CB8C68 /* gimpthumb-utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpthumb-utils.h"; sourceTree = "<group>"; };
+		678A3F362AB24D4C00CB8C68 /* gimpthumb-types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpthumb-types.h"; sourceTree = "<group>"; };
+		678A3F372AB24D4C00CB8C68 /* gimpthumb.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpthumb.def; sourceTree = "<group>"; };
+		678A3F382AB24D4C00CB8C68 /* gimpthumbnail.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpthumbnail.c; sourceTree = "<group>"; };
+		678A3F392AB24D4C00CB8C68 /* gimp-thumbnail-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimp-thumbnail-list.c"; sourceTree = "<group>"; };
+		678A3F3A2AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3F3B2AB24D4C00CB8C68 /* gimpthumb-utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpthumb-utils.c"; sourceTree = "<group>"; };
+		678A3F3C2AB24D4C00CB8C68 /* gimpthumb-error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpthumb-error.c"; sourceTree = "<group>"; };
+		678A3F3D2AB24D4C00CB8C68 /* gimpthumb-enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpthumb-enums.h"; sourceTree = "<group>"; };
+		678A3F3E2AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3F3F2AB24D4C00CB8C68 /* gimpthumb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpthumb.h; sourceTree = "<group>"; };
+		678A3F402AB24D4C00CB8C68 /* gimpthumbnail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpthumbnail.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3F2E2AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3F342AB24D4C00CB8C68 /* gimpthumb-error.h */,
+				678A3F352AB24D4C00CB8C68 /* gimpthumb-utils.h */,
+				678A3F362AB24D4C00CB8C68 /* gimpthumb-types.h */,
+				678A3F372AB24D4C00CB8C68 /* gimpthumb.def */,
+				678A3F382AB24D4C00CB8C68 /* gimpthumbnail.c */,
+				678A3F392AB24D4C00CB8C68 /* gimp-thumbnail-list.c */,
+				678A3F3A2AB24D4C00CB8C68 /* meson.build */,
+				678A3F3B2AB24D4C00CB8C68 /* gimpthumb-utils.c */,
+				678A3F3C2AB24D4C00CB8C68 /* gimpthumb-error.c */,
+				678A3F3D2AB24D4C00CB8C68 /* gimpthumb-enums.h */,
+				678A3F3E2AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3F3F2AB24D4C00CB8C68 /* gimpthumb.h */,
+				678A3F402AB24D4C00CB8C68 /* gimpthumbnail.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3F332AB24D4C00CB8C68 /* libgimpthumb */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3F412AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpthumb" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimpthumb;
+			dependencies = (
+			);
+			name = libgimpthumb;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimpthumb;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3F2F2AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3F322AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpthumb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3F2E2AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3F332AB24D4C00CB8C68 /* libgimpthumb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3F302AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3F312AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3F422AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpthumb;
+			};
+			name = Debug;
+		};
+		678A3F432AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpthumb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3F322AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpthumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F302AB24D4C00CB8C68 /* Debug */,
+				678A3F312AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3F412AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpthumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F422AB24D4C00CB8C68 /* Debug */,
+				678A3F432AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3F2F2AB24D4C00CB8C68 /* Project object */;
+}

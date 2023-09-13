@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3E882AB24D4C00CB8C68 /* gimpchecks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpchecks.h; sourceTree = "<group>"; };
+		678A3E892AB24D4C00CB8C68 /* gimpcpuaccel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcpuaccel.h; sourceTree = "<group>"; };
+		678A3E8A2AB24D4C00CB8C68 /* gimpwire.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpwire.c; sourceTree = "<group>"; };
+		678A3E8B2AB24D4C00CB8C68 /* gimpparamspecs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpparamspecs.c; sourceTree = "<group>"; };
+		678A3E8C2AB24D4C00CB8C68 /* test-cpu-accel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-cpu-accel.c"; sourceTree = "<group>"; };
+		678A3E8D2AB24D4C00CB8C68 /* gimpbase-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpbase-private.h"; sourceTree = "<group>"; };
+		678A3E8E2AB24D4C00CB8C68 /* gimpvaluearray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpvaluearray.c; sourceTree = "<group>"; };
+		678A3E8F2AB24D4C00CB8C68 /* gimpprotocol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprotocol.c; sourceTree = "<group>"; };
+		678A3E902AB24D4C00CB8C68 /* gimpsignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpsignal.h; sourceTree = "<group>"; };
+		678A3E912AB24D4C00CB8C68 /* gimpbasetypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbasetypes.c; sourceTree = "<group>"; };
+		678A3E922AB24D4C00CB8C68 /* gimpparasite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpparasite.c; sourceTree = "<group>"; };
+		678A3E932AB24D4C00CB8C68 /* gimpcompatenums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcompatenums.h; sourceTree = "<group>"; };
+		678A3E942AB24D4C00CB8C68 /* gimplimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimplimits.h; sourceTree = "<group>"; };
+		678A3E952AB24D4C00CB8C68 /* gimputils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimputils.c; sourceTree = "<group>"; };
+		678A3E962AB24D4C00CB8C68 /* gimpenv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpenv.c; sourceTree = "<group>"; };
+		678A3E972AB24D4C00CB8C68 /* gimpmetadata.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmetadata.c; sourceTree = "<group>"; };
+		678A3E982AB24D4C00CB8C68 /* gimprectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimprectangle.h; sourceTree = "<group>"; };
+		678A3E992AB24D4C00CB8C68 /* gimpreloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpreloc.h; sourceTree = "<group>"; };
+		678A3E9A2AB24D4C00CB8C68 /* gimpbaseenums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbaseenums.h; sourceTree = "<group>"; };
+		678A3E9B2AB24D4C00CB8C68 /* gimpparasiteio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpparasiteio.h; sourceTree = "<group>"; };
+		678A3E9C2AB24D4C00CB8C68 /* gimpmemsize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmemsize.h; sourceTree = "<group>"; };
+		678A3E9D2AB24D4C00CB8C68 /* gimpbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbase.h; sourceTree = "<group>"; };
+		678A3E9E2AB24D4C00CB8C68 /* gimpunit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpunit.c; sourceTree = "<group>"; };
+		678A3E9F2AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3EA02AB24D4C00CB8C68 /* gimpparamspecs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpparamspecs.h; sourceTree = "<group>"; };
+		678A3EA12AB24D4C00CB8C68 /* gimpwire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpwire.h; sourceTree = "<group>"; };
+		678A3EA22AB24D4C00CB8C68 /* gimpcpuaccel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcpuaccel.c; sourceTree = "<group>"; };
+		678A3EA32AB24D4C00CB8C68 /* gimpbase.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpbase.def; sourceTree = "<group>"; };
+		678A3EA42AB24D4C00CB8C68 /* gimpchecks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpchecks.c; sourceTree = "<group>"; };
+		678A3EA52AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3EA62AB24D4C00CB8C68 /* gimpsignal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpsignal.c; sourceTree = "<group>"; };
+		678A3EA72AB24D4C00CB8C68 /* gimpbase-private.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpbase-private.c"; sourceTree = "<group>"; };
+		678A3EA82AB24D4C00CB8C68 /* gimpversion.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpversion.h.in; sourceTree = "<group>"; };
+		678A3EA92AB24D4C00CB8C68 /* gimpprotocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprotocol.h; sourceTree = "<group>"; };
+		678A3EAA2AB24D4C00CB8C68 /* gimpwin32-io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpwin32-io.h"; sourceTree = "<group>"; };
+		678A3EAB2AB24D4C00CB8C68 /* gimpvaluearray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpvaluearray.h; sourceTree = "<group>"; };
+		678A3EAC2AB24D4C00CB8C68 /* gimprectangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimprectangle.c; sourceTree = "<group>"; };
+		678A3EAD2AB24D4C00CB8C68 /* gimpmetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmetadata.h; sourceTree = "<group>"; };
+		678A3EAE2AB24D4C00CB8C68 /* gimpreloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpreloc.c; sourceTree = "<group>"; };
+		678A3EAF2AB24D4C00CB8C68 /* gimputils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimputils.h; sourceTree = "<group>"; };
+		678A3EB02AB24D4C00CB8C68 /* gimpcompatenums.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcompatenums.c; sourceTree = "<group>"; };
+		678A3EB12AB24D4C00CB8C68 /* gimpparasite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpparasite.h; sourceTree = "<group>"; };
+		678A3EB22AB24D4C00CB8C68 /* gimpenv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpenv.h; sourceTree = "<group>"; };
+		678A3EB32AB24D4C00CB8C68 /* gimpbasetypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbasetypes.h; sourceTree = "<group>"; };
+		678A3EB42AB24D4C00CB8C68 /* gimpunit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpunit.h; sourceTree = "<group>"; };
+		678A3EB52AB24D4C00CB8C68 /* gimpmemsize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmemsize.c; sourceTree = "<group>"; };
+		678A3EB62AB24D4C00CB8C68 /* gimpparasiteio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpparasiteio.c; sourceTree = "<group>"; };
+		678A3EB72AB24D4C00CB8C68 /* gimpbaseenums.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbaseenums.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3E822AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3E882AB24D4C00CB8C68 /* gimpchecks.h */,
+				678A3E892AB24D4C00CB8C68 /* gimpcpuaccel.h */,
+				678A3E8A2AB24D4C00CB8C68 /* gimpwire.c */,
+				678A3E8B2AB24D4C00CB8C68 /* gimpparamspecs.c */,
+				678A3E8C2AB24D4C00CB8C68 /* test-cpu-accel.c */,
+				678A3E8D2AB24D4C00CB8C68 /* gimpbase-private.h */,
+				678A3E8E2AB24D4C00CB8C68 /* gimpvaluearray.c */,
+				678A3E8F2AB24D4C00CB8C68 /* gimpprotocol.c */,
+				678A3E902AB24D4C00CB8C68 /* gimpsignal.h */,
+				678A3E912AB24D4C00CB8C68 /* gimpbasetypes.c */,
+				678A3E922AB24D4C00CB8C68 /* gimpparasite.c */,
+				678A3E932AB24D4C00CB8C68 /* gimpcompatenums.h */,
+				678A3E942AB24D4C00CB8C68 /* gimplimits.h */,
+				678A3E952AB24D4C00CB8C68 /* gimputils.c */,
+				678A3E962AB24D4C00CB8C68 /* gimpenv.c */,
+				678A3E972AB24D4C00CB8C68 /* gimpmetadata.c */,
+				678A3E982AB24D4C00CB8C68 /* gimprectangle.h */,
+				678A3E992AB24D4C00CB8C68 /* gimpreloc.h */,
+				678A3E9A2AB24D4C00CB8C68 /* gimpbaseenums.h */,
+				678A3E9B2AB24D4C00CB8C68 /* gimpparasiteio.h */,
+				678A3E9C2AB24D4C00CB8C68 /* gimpmemsize.h */,
+				678A3E9D2AB24D4C00CB8C68 /* gimpbase.h */,
+				678A3E9E2AB24D4C00CB8C68 /* gimpunit.c */,
+				678A3E9F2AB24D4C00CB8C68 /* meson.build */,
+				678A3EA02AB24D4C00CB8C68 /* gimpparamspecs.h */,
+				678A3EA12AB24D4C00CB8C68 /* gimpwire.h */,
+				678A3EA22AB24D4C00CB8C68 /* gimpcpuaccel.c */,
+				678A3EA32AB24D4C00CB8C68 /* gimpbase.def */,
+				678A3EA42AB24D4C00CB8C68 /* gimpchecks.c */,
+				678A3EA52AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3EA62AB24D4C00CB8C68 /* gimpsignal.c */,
+				678A3EA72AB24D4C00CB8C68 /* gimpbase-private.c */,
+				678A3EA82AB24D4C00CB8C68 /* gimpversion.h.in */,
+				678A3EA92AB24D4C00CB8C68 /* gimpprotocol.h */,
+				678A3EAA2AB24D4C00CB8C68 /* gimpwin32-io.h */,
+				678A3EAB2AB24D4C00CB8C68 /* gimpvaluearray.h */,
+				678A3EAC2AB24D4C00CB8C68 /* gimprectangle.c */,
+				678A3EAD2AB24D4C00CB8C68 /* gimpmetadata.h */,
+				678A3EAE2AB24D4C00CB8C68 /* gimpreloc.c */,
+				678A3EAF2AB24D4C00CB8C68 /* gimputils.h */,
+				678A3EB02AB24D4C00CB8C68 /* gimpcompatenums.c */,
+				678A3EB12AB24D4C00CB8C68 /* gimpparasite.h */,
+				678A3EB22AB24D4C00CB8C68 /* gimpenv.h */,
+				678A3EB32AB24D4C00CB8C68 /* gimpbasetypes.h */,
+				678A3EB42AB24D4C00CB8C68 /* gimpunit.h */,
+				678A3EB52AB24D4C00CB8C68 /* gimpmemsize.c */,
+				678A3EB62AB24D4C00CB8C68 /* gimpparasiteio.c */,
+				678A3EB72AB24D4C00CB8C68 /* gimpbaseenums.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3E872AB24D4C00CB8C68 /* libgimpbase */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3EB82AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpbase" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimpbase;
+			dependencies = (
+			);
+			name = libgimpbase;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimpbase;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3E832AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3E862AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpbase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3E822AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3E872AB24D4C00CB8C68 /* libgimpbase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3E842AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3E852AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3EB92AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpbase;
+			};
+			name = Debug;
+		};
+		678A3EBA2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpbase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3E862AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3E842AB24D4C00CB8C68 /* Debug */,
+				678A3E852AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3EB82AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3EB92AB24D4C00CB8C68 /* Debug */,
+				678A3EBA2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3E832AB24D4C00CB8C68 /* Project object */;
+}

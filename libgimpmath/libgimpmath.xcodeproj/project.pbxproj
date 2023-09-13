@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3F112AB24D4C00CB8C68 /* gimpmatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmatrix.h; sourceTree = "<group>"; };
+		678A3F122AB24D4C00CB8C68 /* gimpvector.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpvector.c; sourceTree = "<group>"; };
+		678A3F132AB24D4C00CB8C68 /* gimpmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmath.h; sourceTree = "<group>"; };
+		678A3F142AB24D4C00CB8C68 /* gimpmathtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmathtypes.h; sourceTree = "<group>"; };
+		678A3F152AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3F162AB24D4C00CB8C68 /* gimpmatrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmatrix.c; sourceTree = "<group>"; };
+		678A3F172AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3F182AB24D4C00CB8C68 /* gimpmath.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpmath.def; sourceTree = "<group>"; };
+		678A3F192AB24D4C00CB8C68 /* gimpvector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpvector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3F0B2AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3F112AB24D4C00CB8C68 /* gimpmatrix.h */,
+				678A3F122AB24D4C00CB8C68 /* gimpvector.c */,
+				678A3F132AB24D4C00CB8C68 /* gimpmath.h */,
+				678A3F142AB24D4C00CB8C68 /* gimpmathtypes.h */,
+				678A3F152AB24D4C00CB8C68 /* meson.build */,
+				678A3F162AB24D4C00CB8C68 /* gimpmatrix.c */,
+				678A3F172AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3F182AB24D4C00CB8C68 /* gimpmath.def */,
+				678A3F192AB24D4C00CB8C68 /* gimpvector.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3F102AB24D4C00CB8C68 /* libgimpmath */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3F1A2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpmath" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimpmath;
+			dependencies = (
+			);
+			name = libgimpmath;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimpmath;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3F0C2AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3F0F2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpmath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3F0B2AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3F102AB24D4C00CB8C68 /* libgimpmath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3F0D2AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3F0E2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3F1B2AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpmath;
+			};
+			name = Debug;
+		};
+		678A3F1C2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimpmath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3F0F2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimpmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F0D2AB24D4C00CB8C68 /* Debug */,
+				678A3F0E2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3F1A2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimpmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3F1B2AB24D4C00CB8C68 /* Debug */,
+				678A3F1C2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3F0C2AB24D4C00CB8C68 /* Project object */;
+}

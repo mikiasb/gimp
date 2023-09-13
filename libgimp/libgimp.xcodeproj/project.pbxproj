@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		678A3D8D2AB24D4C00CB8C68 /* gimppattern_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppattern_pdb.c; sourceTree = "<group>"; };
+		678A3D8E2AB24D4C00CB8C68 /* gimpresource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpresource.h; sourceTree = "<group>"; };
+		678A3D8F2AB24D4C00CB8C68 /* gimp-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimp-private.h"; sourceTree = "<group>"; };
+		678A3D902AB24D4C00CB8C68 /* gimpresourceselect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpresourceselect.h; sourceTree = "<group>"; };
+		678A3D912AB24D4C00CB8C68 /* gimpdrawable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdrawable.c; sourceTree = "<group>"; };
+		678A3D922AB24D4C00CB8C68 /* gimpimage_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimage_pdb.h; sourceTree = "<group>"; };
+		678A3D932AB24D4C00CB8C68 /* gimpui.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpui.def; sourceTree = "<group>"; };
+		678A3D942AB24D4C00CB8C68 /* gimpbrush_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbrush_pdb.c; sourceTree = "<group>"; };
+		678A3D952AB24D4C00CB8C68 /* gimpplugin_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpplugin_pdb.c; sourceTree = "<group>"; };
+		678A3D962AB24D4C00CB8C68 /* gimpimagemetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagemetadata.h; sourceTree = "<group>"; };
+		678A3D972AB24D4C00CB8C68 /* gimplayermask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimplayermask.h; sourceTree = "<group>"; };
+		678A3D982AB24D4C00CB8C68 /* gimpbrushselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbrushselectbutton.c; sourceTree = "<group>"; };
+		678A3D992AB24D4C00CB8C68 /* stdplugins-intl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stdplugins-intl.h"; sourceTree = "<group>"; };
+		678A3D9A2AB24D4C00CB8C68 /* gimplayer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimplayer.c; sourceTree = "<group>"; };
+		678A3D9B2AB24D4C00CB8C68 /* gimppropchooser-private.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimppropchooser-private.c"; sourceTree = "<group>"; };
+		678A3D9C2AB24D4C00CB8C68 /* gimp_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimp_pdb.h; sourceTree = "<group>"; };
+		678A3D9D2AB24D4C00CB8C68 /* gimphelp_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimphelp_pdb.h; sourceTree = "<group>"; };
+		678A3D9E2AB24D4C00CB8C68 /* gimpdisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdisplay.h; sourceTree = "<group>"; };
+		678A3D9F2AB24D4C00CB8C68 /* gimpdrawablecolor_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdrawablecolor_pdb.c; sourceTree = "<group>"; };
+		678A3DA02AB24D4C00CB8C68 /* gimpitem_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpitem_pdb.h; sourceTree = "<group>"; };
+		678A3DA12AB24D4C00CB8C68 /* gimpaspectpreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpaspectpreview.h; sourceTree = "<group>"; };
+		678A3DA22AB24D4C00CB8C68 /* gimpsaveprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpsaveprocedure.h; sourceTree = "<group>"; };
+		678A3DA32AB24D4C00CB8C68 /* gimpparamspecs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpparamspecs.c; sourceTree = "<group>"; };
+		678A3DA42AB24D4C00CB8C68 /* gimpgradient_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgradient_pdb.h; sourceTree = "<group>"; };
+		678A3DA52AB24D4C00CB8C68 /* gimppainttools_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppainttools_pdb.c; sourceTree = "<group>"; };
+		678A3DA62AB24D4C00CB8C68 /* gimpprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprocedure.c; sourceTree = "<group>"; };
+		678A3DA72AB24D4C00CB8C68 /* gimpchannel_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpchannel_pdb.h; sourceTree = "<group>"; };
+		678A3DA82AB24D4C00CB8C68 /* gimplayer_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimplayer_pdb.c; sourceTree = "<group>"; };
+		678A3DA92AB24D4C00CB8C68 /* gimpchannel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpchannel.c; sourceTree = "<group>"; };
+		678A3DAA2AB24D4C00CB8C68 /* gimppalettes_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppalettes_pdb.h; sourceTree = "<group>"; };
+		678A3DAB2AB24D4C00CB8C68 /* gimp-shm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimp-shm.h"; sourceTree = "<group>"; };
+		678A3DAC2AB24D4C00CB8C68 /* gimpmessage_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpmessage_pdb.h; sourceTree = "<group>"; };
+		678A3DAD2AB24D4C00CB8C68 /* gimpgimprc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgimprc.h; sourceTree = "<group>"; };
+		678A3DAE2AB24D4C00CB8C68 /* gimpplugin-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpplugin-private.h"; sourceTree = "<group>"; };
+		678A3DAF2AB24D4C00CB8C68 /* gimpui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpui.c; sourceTree = "<group>"; };
+		678A3DB02AB24D4C00CB8C68 /* gimpfont_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfont_pdb.c; sourceTree = "<group>"; };
+		678A3DB12AB24D4C00CB8C68 /* gimpselection_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpselection_pdb.c; sourceTree = "<group>"; };
+		678A3DB22AB24D4C00CB8C68 /* gimpedit_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpedit_pdb.c; sourceTree = "<group>"; };
+		678A3DB32AB24D4C00CB8C68 /* gimp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimp.h; sourceTree = "<group>"; };
+		678A3DB42AB24D4C00CB8C68 /* gimpresourceselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpresourceselectbutton.c; sourceTree = "<group>"; };
+		678A3DB52AB24D4C00CB8C68 /* gimpdrawable_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdrawable_pdb.h; sourceTree = "<group>"; };
+		678A3DB62AB24D4C00CB8C68 /* gimptextlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimptextlayer.h; sourceTree = "<group>"; };
+		678A3DB72AB24D4C00CB8C68 /* gimpimagegrid_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagegrid_pdb.h; sourceTree = "<group>"; };
+		678A3DB82AB24D4C00CB8C68 /* gimpimageconvert_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimageconvert_pdb.h; sourceTree = "<group>"; };
+		678A3DB92AB24D4C00CB8C68 /* gimpgradientselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgradientselect_pdb.h; sourceTree = "<group>"; };
+		678A3DBA2AB24D4C00CB8C68 /* gimpimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimage.h; sourceTree = "<group>"; };
+		678A3DBB2AB24D4C00CB8C68 /* gimpunitcache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpunitcache.c; sourceTree = "<group>"; };
+		678A3DBC2AB24D4C00CB8C68 /* gimpitemtransform_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpitemtransform_pdb.c; sourceTree = "<group>"; };
+		678A3DBD2AB24D4C00CB8C68 /* gimppdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppdb.h; sourceTree = "<group>"; };
+		678A3DBE2AB24D4C00CB8C68 /* gimpfontselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfontselectbutton.c; sourceTree = "<group>"; };
+		678A3DBF2AB24D4C00CB8C68 /* gimpfontselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfontselect_pdb.c; sourceTree = "<group>"; };
+		678A3DC02AB24D4C00CB8C68 /* gimpimageselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimageselect_pdb.h; sourceTree = "<group>"; };
+		678A3DC12AB24D4C00CB8C68 /* gimpprogressbar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprogressbar.c; sourceTree = "<group>"; };
+		678A3DC22AB24D4C00CB8C68 /* gimpprogress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprogress.c; sourceTree = "<group>"; };
+		678A3DC32AB24D4C00CB8C68 /* gimpdebug_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdebug_pdb.c; sourceTree = "<group>"; };
+		678A3DC42AB24D4C00CB8C68 /* gimpuimarshal.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpuimarshal.list; sourceTree = "<group>"; };
+		678A3DC52AB24D4C00CB8C68 /* gimpimagemetadata-save.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpimagemetadata-save.c"; sourceTree = "<group>"; };
+		678A3DC62AB24D4C00CB8C68 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		678A3DC72AB24D4C00CB8C68 /* gimpimagecolorprofile_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagecolorprofile_pdb.h; sourceTree = "<group>"; };
+		678A3DC82AB24D4C00CB8C68 /* gimppixbuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppixbuf.c; sourceTree = "<group>"; };
+		678A3DC92AB24D4C00CB8C68 /* gimpfileprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfileprocedure.c; sourceTree = "<group>"; };
+		678A3DCA2AB24D4C00CB8C68 /* gimpitemcombobox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpitemcombobox.h; sourceTree = "<group>"; };
+		678A3DCB2AB24D4C00CB8C68 /* gimpunit_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpunit_pdb.h; sourceTree = "<group>"; };
+		678A3DCC2AB24D4C00CB8C68 /* gimpimagecombobox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagecombobox.h; sourceTree = "<group>"; };
+		678A3DCD2AB24D4C00CB8C68 /* gimpbrushselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbrushselect_pdb.h; sourceTree = "<group>"; };
+		678A3DCE2AB24D4C00CB8C68 /* gimpenums.c.tail */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimpenums.c.tail; sourceTree = "<group>"; };
+		678A3DCF2AB24D4C00CB8C68 /* gimpprocview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprocview.c; sourceTree = "<group>"; };
+		678A3DD02AB24D4C00CB8C68 /* gimpvectors_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpvectors_pdb.c; sourceTree = "<group>"; };
+		678A3DD12AB24D4C00CB8C68 /* gimppaletteselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppaletteselect_pdb.c; sourceTree = "<group>"; };
+		678A3DD22AB24D4C00CB8C68 /* gimpprocedureconfig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprocedureconfig.c; sourceTree = "<group>"; };
+		678A3DD32AB24D4C00CB8C68 /* gimp_pdb_headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimp_pdb_headers.h; sourceTree = "<group>"; };
+		678A3DD42AB24D4C00CB8C68 /* gimpparamspecs-desc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpparamspecs-desc.h"; sourceTree = "<group>"; };
+		678A3DD52AB24D4C00CB8C68 /* gimpprocbrowserdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprocbrowserdialog.h; sourceTree = "<group>"; };
+		678A3DD62AB24D4C00CB8C68 /* gimpenums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpenums.h; sourceTree = "<group>"; };
+		678A3DD72AB24D4C00CB8C68 /* gimpimageprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimageprocedure.h; sourceTree = "<group>"; };
+		678A3DD82AB24D4C00CB8C68 /* gimpsaveproceduredialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpsaveproceduredialog.h; sourceTree = "<group>"; };
+		678A3DD92AB24D4C00CB8C68 /* gimpplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpplugin.h; sourceTree = "<group>"; };
+		678A3DDA2AB24D4C00CB8C68 /* gimpdrawablepreview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdrawablepreview.c; sourceTree = "<group>"; };
+		678A3DDB2AB24D4C00CB8C68 /* gimpfloatingsel_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfloatingsel_pdb.h; sourceTree = "<group>"; };
+		678A3DDC2AB24D4C00CB8C68 /* gimpcontext_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpcontext_pdb.c; sourceTree = "<group>"; };
+		678A3DDD2AB24D4C00CB8C68 /* gimpexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpexport.h; sourceTree = "<group>"; };
+		678A3DDE2AB24D4C00CB8C68 /* gimpproceduredialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpproceduredialog.c; sourceTree = "<group>"; };
+		678A3DDF2AB24D4C00CB8C68 /* gimpitem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpitem.c; sourceTree = "<group>"; };
+		678A3DE02AB24D4C00CB8C68 /* gimpgimprc_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgimprc_pdb.c; sourceTree = "<group>"; };
+		678A3DE12AB24D4C00CB8C68 /* gimpgpparams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgpparams.h; sourceTree = "<group>"; };
+		678A3DE22AB24D4C00CB8C68 /* gimptextlayer_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimptextlayer_pdb.h; sourceTree = "<group>"; };
+		678A3DE32AB24D4C00CB8C68 /* gimppdbprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppdbprocedure.c; sourceTree = "<group>"; };
+		678A3DE42AB24D4C00CB8C68 /* gimppaletteselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppaletteselectbutton.h; sourceTree = "<group>"; };
+		678A3DE52AB24D4C00CB8C68 /* gimpgradients_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgradients_pdb.h; sourceTree = "<group>"; };
+		678A3DE62AB24D4C00CB8C68 /* gimpfile_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfile_pdb.c; sourceTree = "<group>"; };
+		678A3DE72AB24D4C00CB8C68 /* gimpimagesamplepoints_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagesamplepoints_pdb.c; sourceTree = "<group>"; };
+		678A3DE82AB24D4C00CB8C68 /* gimpprogress_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprogress_pdb.c; sourceTree = "<group>"; };
+		678A3DE92AB24D4C00CB8C68 /* gimploadprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimploadprocedure.c; sourceTree = "<group>"; };
+		678A3DEA2AB24D4C00CB8C68 /* gimpbatchprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbatchprocedure.h; sourceTree = "<group>"; };
+		678A3DEB2AB24D4C00CB8C68 /* gimpdisplay_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdisplay_pdb.c; sourceTree = "<group>"; };
+		678A3DEC2AB24D4C00CB8C68 /* gimppalette_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppalette_pdb.h; sourceTree = "<group>"; };
+		678A3DED2AB24D4C00CB8C68 /* gimpresource_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpresource_pdb.c; sourceTree = "<group>"; };
+		678A3DEE2AB24D4C00CB8C68 /* gimpselection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpselection.h; sourceTree = "<group>"; };
+		678A3DEF2AB24D4C00CB8C68 /* gimpvectors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpvectors.c; sourceTree = "<group>"; };
+		678A3DF02AB24D4C00CB8C68 /* gimppdb_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppdb_pdb.c; sourceTree = "<group>"; };
+		678A3DF12AB24D4C00CB8C68 /* gimp-debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimp-debug.c"; sourceTree = "<group>"; };
+		678A3DF22AB24D4C00CB8C68 /* gimpimagetransform_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagetransform_pdb.c; sourceTree = "<group>"; };
+		678A3DF32AB24D4C00CB8C68 /* gimpzoompreview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpzoompreview.c; sourceTree = "<group>"; };
+		678A3DF42AB24D4C00CB8C68 /* gimpdynamics_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdynamics_pdb.h; sourceTree = "<group>"; };
+		678A3DF52AB24D4C00CB8C68 /* gimpfonts_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfonts_pdb.c; sourceTree = "<group>"; };
+		678A3DF62AB24D4C00CB8C68 /* gimpbrushes_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbrushes_pdb.h; sourceTree = "<group>"; };
+		678A3DF72AB24D4C00CB8C68 /* gimpimageguides_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimageguides_pdb.h; sourceTree = "<group>"; };
+		678A3DF82AB24D4C00CB8C68 /* gimpimageundo_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimageundo_pdb.h; sourceTree = "<group>"; };
+		678A3DF92AB24D4C00CB8C68 /* gimpdrawableedit_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdrawableedit_pdb.c; sourceTree = "<group>"; };
+		678A3DFA2AB24D4C00CB8C68 /* gimppatterns_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppatterns_pdb.c; sourceTree = "<group>"; };
+		678A3DFB2AB24D4C00CB8C68 /* gimpgradientselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgradientselectbutton.h; sourceTree = "<group>"; };
+		678A3DFC2AB24D4C00CB8C68 /* gimppatternselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppatternselectbutton.h; sourceTree = "<group>"; };
+		678A3DFD2AB24D4C00CB8C68 /* gimpbuffer_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbuffer_pdb.h; sourceTree = "<group>"; };
+		678A3DFE2AB24D4C00CB8C68 /* gimppatternselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppatternselect_pdb.h; sourceTree = "<group>"; };
+		678A3DFF2AB24D4C00CB8C68 /* gimptexttool_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimptexttool_pdb.h; sourceTree = "<group>"; };
+		678A3E002AB24D4C00CB8C68 /* gimptilebackendplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimptilebackendplugin.h; sourceTree = "<group>"; };
+		678A3E012AB24D4C00CB8C68 /* gimpimagecolorprofile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagecolorprofile.c; sourceTree = "<group>"; };
+		678A3E022AB24D4C00CB8C68 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		678A3E032AB24D4C00CB8C68 /* gimppropchooserfactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppropchooserfactory.h; sourceTree = "<group>"; };
+		678A3E042AB24D4C00CB8C68 /* gimpthumbnailprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpthumbnailprocedure.h; sourceTree = "<group>"; };
+		678A3E052AB24D4C00CB8C68 /* gimpchannel_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpchannel_pdb.c; sourceTree = "<group>"; };
+		678A3E062AB24D4C00CB8C68 /* gimpprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprocedure.h; sourceTree = "<group>"; };
+		678A3E072AB24D4C00CB8C68 /* gimppainttools_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppainttools_pdb.h; sourceTree = "<group>"; };
+		678A3E082AB24D4C00CB8C68 /* gimpgradient_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgradient_pdb.c; sourceTree = "<group>"; };
+		678A3E092AB24D4C00CB8C68 /* gimpparamspecs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpparamspecs.h; sourceTree = "<group>"; };
+		678A3E0A2AB24D4C00CB8C68 /* gimpselection_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpselection_pdb.h; sourceTree = "<group>"; };
+		678A3E0B2AB24D4C00CB8C68 /* gimpfont_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfont_pdb.h; sourceTree = "<group>"; };
+		678A3E0C2AB24D4C00CB8C68 /* gimpedit_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpedit_pdb.h; sourceTree = "<group>"; };
+		678A3E0D2AB24D4C00CB8C68 /* gimpui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpui.h; sourceTree = "<group>"; };
+		678A3E0E2AB24D4C00CB8C68 /* gimpmessage_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpmessage_pdb.c; sourceTree = "<group>"; };
+		678A3E0F2AB24D4C00CB8C68 /* gimpgimprc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgimprc.c; sourceTree = "<group>"; };
+		678A3E102AB24D4C00CB8C68 /* gimp-shm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimp-shm.c"; sourceTree = "<group>"; };
+		678A3E112AB24D4C00CB8C68 /* gimppalettes_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppalettes_pdb.c; sourceTree = "<group>"; };
+		678A3E122AB24D4C00CB8C68 /* gimpchannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpchannel.h; sourceTree = "<group>"; };
+		678A3E132AB24D4C00CB8C68 /* gimplayer_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimplayer_pdb.h; sourceTree = "<group>"; };
+		678A3E142AB24D4C00CB8C68 /* libgimp-intl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libgimp-intl.h"; sourceTree = "<group>"; };
+		678A3E152AB24D4C00CB8C68 /* gimpdisplay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdisplay.c; sourceTree = "<group>"; };
+		678A3E162AB24D4C00CB8C68 /* gimpdrawablecolor_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdrawablecolor_pdb.h; sourceTree = "<group>"; };
+		678A3E172AB24D4C00CB8C68 /* gimpsaveprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpsaveprocedure.c; sourceTree = "<group>"; };
+		678A3E182AB24D4C00CB8C68 /* gimpaspectpreview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpaspectpreview.c; sourceTree = "<group>"; };
+		678A3E192AB24D4C00CB8C68 /* gimpitem_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpitem_pdb.c; sourceTree = "<group>"; };
+		678A3E1A2AB24D4C00CB8C68 /* gimpbrushselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbrushselectbutton.h; sourceTree = "<group>"; };
+		678A3E1B2AB24D4C00CB8C68 /* gimplayermask.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimplayermask.c; sourceTree = "<group>"; };
+		678A3E1C2AB24D4C00CB8C68 /* gimpplugin_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpplugin_pdb.h; sourceTree = "<group>"; };
+		678A3E1D2AB24D4C00CB8C68 /* gimpimagemetadata.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagemetadata.c; sourceTree = "<group>"; };
+		678A3E1E2AB24D4C00CB8C68 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		678A3E1F2AB24D4C00CB8C68 /* gimpbrush_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpbrush_pdb.h; sourceTree = "<group>"; };
+		678A3E202AB24D4C00CB8C68 /* gimphelp_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimphelp_pdb.c; sourceTree = "<group>"; };
+		678A3E212AB24D4C00CB8C68 /* gimppropchooser-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimppropchooser-private.h"; sourceTree = "<group>"; };
+		678A3E222AB24D4C00CB8C68 /* gimpprocedure-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpprocedure-private.h"; sourceTree = "<group>"; };
+		678A3E232AB24D4C00CB8C68 /* gimp_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimp_pdb.c; sourceTree = "<group>"; };
+		678A3E242AB24D4C00CB8C68 /* gimpparamspecs-body.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpparamspecs-body.c"; sourceTree = "<group>"; };
+		678A3E252AB24D4C00CB8C68 /* gimplayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimplayer.h; sourceTree = "<group>"; };
+		678A3E262AB24D4C00CB8C68 /* gimpresource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpresource.c; sourceTree = "<group>"; };
+		678A3E272AB24D4C00CB8C68 /* gimppattern_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppattern_pdb.h; sourceTree = "<group>"; };
+		678A3E282AB24D4C00CB8C68 /* gimpdrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdrawable.h; sourceTree = "<group>"; };
+		678A3E292AB24D4C00CB8C68 /* gimpimage_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimage_pdb.c; sourceTree = "<group>"; };
+		678A3E2A2AB24D4C00CB8C68 /* Makefile.gi */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.gi; sourceTree = "<group>"; };
+		678A3E2B2AB24D4C00CB8C68 /* gimpresourceselect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpresourceselect.c; sourceTree = "<group>"; };
+		678A3E2C2AB24D4C00CB8C68 /* gimpbrushselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbrushselect_pdb.c; sourceTree = "<group>"; };
+		678A3E2D2AB24D4C00CB8C68 /* gimpimagecombobox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagecombobox.c; sourceTree = "<group>"; };
+		678A3E2E2AB24D4C00CB8C68 /* gimpunit_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpunit_pdb.c; sourceTree = "<group>"; };
+		678A3E2F2AB24D4C00CB8C68 /* gimp.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = gimp.def; sourceTree = "<group>"; };
+		678A3E302AB24D4C00CB8C68 /* gimpvectors_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpvectors_pdb.h; sourceTree = "<group>"; };
+		678A3E312AB24D4C00CB8C68 /* gimpprocview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprocview.h; sourceTree = "<group>"; };
+		678A3E322AB24D4C00CB8C68 /* gimpimagecolorprofile_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagecolorprofile_pdb.c; sourceTree = "<group>"; };
+		678A3E332AB24D4C00CB8C68 /* gimpdebug_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdebug_pdb.h; sourceTree = "<group>"; };
+		678A3E342AB24D4C00CB8C68 /* gimpfileprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfileprocedure.h; sourceTree = "<group>"; };
+		678A3E352AB24D4C00CB8C68 /* gimpitemcombobox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpitemcombobox.c; sourceTree = "<group>"; };
+		678A3E362AB24D4C00CB8C68 /* gimppixbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppixbuf.h; sourceTree = "<group>"; };
+		678A3E372AB24D4C00CB8C68 /* gimpitemtransform_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpitemtransform_pdb.h; sourceTree = "<group>"; };
+		678A3E382AB24D4C00CB8C68 /* gimpunitcache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpunitcache.h; sourceTree = "<group>"; };
+		678A3E392AB24D4C00CB8C68 /* gimpimage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimage.c; sourceTree = "<group>"; };
+		678A3E3A2AB24D4C00CB8C68 /* gimpprogress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprogress.h; sourceTree = "<group>"; };
+		678A3E3B2AB24D4C00CB8C68 /* gimpimageselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimageselect_pdb.c; sourceTree = "<group>"; };
+		678A3E3C2AB24D4C00CB8C68 /* gimpprogressbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprogressbar.h; sourceTree = "<group>"; };
+		678A3E3D2AB24D4C00CB8C68 /* gimpfontselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfontselect_pdb.h; sourceTree = "<group>"; };
+		678A3E3E2AB24D4C00CB8C68 /* gimpfontselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfontselectbutton.h; sourceTree = "<group>"; };
+		678A3E3F2AB24D4C00CB8C68 /* gimppdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppdb.c; sourceTree = "<group>"; };
+		678A3E402AB24D4C00CB8C68 /* gimpimagegrid_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimagegrid_pdb.c; sourceTree = "<group>"; };
+		678A3E412AB24D4C00CB8C68 /* gimptextlayer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimptextlayer.c; sourceTree = "<group>"; };
+		678A3E422AB24D4C00CB8C68 /* gimpdrawable_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdrawable_pdb.c; sourceTree = "<group>"; };
+		678A3E432AB24D4C00CB8C68 /* gimpresourceselectbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpresourceselectbutton.h; sourceTree = "<group>"; };
+		678A3E442AB24D4C00CB8C68 /* gimp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimp.c; sourceTree = "<group>"; };
+		678A3E452AB24D4C00CB8C68 /* gimpgradientselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgradientselect_pdb.c; sourceTree = "<group>"; };
+		678A3E462AB24D4C00CB8C68 /* gimpimageconvert_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimageconvert_pdb.c; sourceTree = "<group>"; };
+		678A3E472AB24D4C00CB8C68 /* gimpgradients_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgradients_pdb.c; sourceTree = "<group>"; };
+		678A3E482AB24D4C00CB8C68 /* gimppdbprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppdbprocedure.h; sourceTree = "<group>"; };
+		678A3E492AB24D4C00CB8C68 /* gimppaletteselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppaletteselectbutton.c; sourceTree = "<group>"; };
+		678A3E4A2AB24D4C00CB8C68 /* gimpbatchprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbatchprocedure.c; sourceTree = "<group>"; };
+		678A3E4B2AB24D4C00CB8C68 /* gimpimagesamplepoints_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagesamplepoints_pdb.h; sourceTree = "<group>"; };
+		678A3E4C2AB24D4C00CB8C68 /* gimpprogress_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprogress_pdb.h; sourceTree = "<group>"; };
+		678A3E4D2AB24D4C00CB8C68 /* gimploadprocedure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimploadprocedure.h; sourceTree = "<group>"; };
+		678A3E4E2AB24D4C00CB8C68 /* gimpfile_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfile_pdb.h; sourceTree = "<group>"; };
+		678A3E4F2AB24D4C00CB8C68 /* GimpUi-3.0.metadata */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GimpUi-3.0.metadata"; sourceTree = "<group>"; };
+		678A3E502AB24D4C00CB8C68 /* gimpitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpitem.h; sourceTree = "<group>"; };
+		678A3E512AB24D4C00CB8C68 /* gimpproceduredialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpproceduredialog.h; sourceTree = "<group>"; };
+		678A3E522AB24D4C00CB8C68 /* gimptextlayer_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimptextlayer_pdb.c; sourceTree = "<group>"; };
+		678A3E532AB24D4C00CB8C68 /* gimpgpparams.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgpparams.c; sourceTree = "<group>"; };
+		678A3E542AB24D4C00CB8C68 /* gimpgimprc_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpgimprc_pdb.h; sourceTree = "<group>"; };
+		678A3E552AB24D4C00CB8C68 /* gimpplugin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpplugin.c; sourceTree = "<group>"; };
+		678A3E562AB24D4C00CB8C68 /* gimpexport.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpexport.c; sourceTree = "<group>"; };
+		678A3E572AB24D4C00CB8C68 /* gimppdb-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimppdb-private.h"; sourceTree = "<group>"; };
+		678A3E582AB24D4C00CB8C68 /* gimpcontext_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpcontext_pdb.h; sourceTree = "<group>"; };
+		678A3E592AB24D4C00CB8C68 /* gimpuitypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpuitypes.h; sourceTree = "<group>"; };
+		678A3E5A2AB24D4C00CB8C68 /* gimpfloatingsel_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpfloatingsel_pdb.c; sourceTree = "<group>"; };
+		678A3E5B2AB24D4C00CB8C68 /* gimpdrawablepreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdrawablepreview.h; sourceTree = "<group>"; };
+		678A3E5C2AB24D4C00CB8C68 /* gimpprocedureconfig-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpprocedureconfig-private.h"; sourceTree = "<group>"; };
+		678A3E5D2AB24D4C00CB8C68 /* gimpsaveproceduredialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpsaveproceduredialog.c; sourceTree = "<group>"; };
+		678A3E5E2AB24D4C00CB8C68 /* gimpimageprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimageprocedure.c; sourceTree = "<group>"; };
+		678A3E5F2AB24D4C00CB8C68 /* gimpparamspecs-desc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpparamspecs-desc.c"; sourceTree = "<group>"; };
+		678A3E602AB24D4C00CB8C68 /* gimpprocedureconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpprocedureconfig.h; sourceTree = "<group>"; };
+		678A3E612AB24D4C00CB8C68 /* gimpprocbrowserdialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpprocbrowserdialog.c; sourceTree = "<group>"; };
+		678A3E622AB24D4C00CB8C68 /* gimppaletteselect_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppaletteselect_pdb.h; sourceTree = "<group>"; };
+		678A3E632AB24D4C00CB8C68 /* gimpimagecolorprofile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagecolorprofile.h; sourceTree = "<group>"; };
+		678A3E642AB24D4C00CB8C68 /* gimptilebackendplugin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimptilebackendplugin.c; sourceTree = "<group>"; };
+		678A3E652AB24D4C00CB8C68 /* gimptexttool_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimptexttool_pdb.c; sourceTree = "<group>"; };
+		678A3E662AB24D4C00CB8C68 /* gimpbuffer_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbuffer_pdb.c; sourceTree = "<group>"; };
+		678A3E672AB24D4C00CB8C68 /* gimppatternselect_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppatternselect_pdb.c; sourceTree = "<group>"; };
+		678A3E682AB24D4C00CB8C68 /* gimpthumbnailprocedure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpthumbnailprocedure.c; sourceTree = "<group>"; };
+		678A3E692AB24D4C00CB8C68 /* gimppropchooserfactory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppropchooserfactory.c; sourceTree = "<group>"; };
+		678A3E6A2AB24D4C00CB8C68 /* gimpprocedure-params.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimpprocedure-params.h"; sourceTree = "<group>"; };
+		678A3E6B2AB24D4C00CB8C68 /* gimppatternselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppatternselectbutton.c; sourceTree = "<group>"; };
+		678A3E6C2AB24D4C00CB8C68 /* gimpgradientselectbutton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpgradientselectbutton.c; sourceTree = "<group>"; };
+		678A3E6D2AB24D4C00CB8C68 /* gimpdynamics_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpdynamics_pdb.c; sourceTree = "<group>"; };
+		678A3E6E2AB24D4C00CB8C68 /* gimpzoompreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpzoompreview.h; sourceTree = "<group>"; };
+		678A3E6F2AB24D4C00CB8C68 /* gimpimagetransform_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpimagetransform_pdb.h; sourceTree = "<group>"; };
+		678A3E702AB24D4C00CB8C68 /* gimp-debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimp-debug.h"; sourceTree = "<group>"; };
+		678A3E712AB24D4C00CB8C68 /* gimppdb_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppdb_pdb.h; sourceTree = "<group>"; };
+		678A3E722AB24D4C00CB8C68 /* gimpvectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpvectors.h; sourceTree = "<group>"; };
+		678A3E732AB24D4C00CB8C68 /* gimppatterns_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimppatterns_pdb.h; sourceTree = "<group>"; };
+		678A3E742AB24D4C00CB8C68 /* gimpdrawableedit_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdrawableedit_pdb.h; sourceTree = "<group>"; };
+		678A3E752AB24D4C00CB8C68 /* gimpimageundo_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimageundo_pdb.c; sourceTree = "<group>"; };
+		678A3E762AB24D4C00CB8C68 /* gimpimageguides_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpimageguides_pdb.c; sourceTree = "<group>"; };
+		678A3E772AB24D4C00CB8C68 /* gimpbrushes_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpbrushes_pdb.c; sourceTree = "<group>"; };
+		678A3E782AB24D4C00CB8C68 /* gimpfonts_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpfonts_pdb.h; sourceTree = "<group>"; };
+		678A3E792AB24D4C00CB8C68 /* gimpgpparams-body.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gimpgpparams-body.c"; sourceTree = "<group>"; };
+		678A3E7A2AB24D4C00CB8C68 /* gimpdisplay_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpdisplay_pdb.h; sourceTree = "<group>"; };
+		678A3E7B2AB24D4C00CB8C68 /* gimptypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimptypes.h; sourceTree = "<group>"; };
+		678A3E7C2AB24D4C00CB8C68 /* gimpresource_pdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gimpresource_pdb.h; sourceTree = "<group>"; };
+		678A3E7D2AB24D4C00CB8C68 /* gimpselection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimpselection.c; sourceTree = "<group>"; };
+		678A3E7E2AB24D4C00CB8C68 /* gimppalette_pdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gimppalette_pdb.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		678A3D872AB24D4C00CB8C68 = {
+			isa = PBXGroup;
+			children = (
+				678A3D8D2AB24D4C00CB8C68 /* gimppattern_pdb.c */,
+				678A3D8E2AB24D4C00CB8C68 /* gimpresource.h */,
+				678A3D8F2AB24D4C00CB8C68 /* gimp-private.h */,
+				678A3D902AB24D4C00CB8C68 /* gimpresourceselect.h */,
+				678A3D912AB24D4C00CB8C68 /* gimpdrawable.c */,
+				678A3D922AB24D4C00CB8C68 /* gimpimage_pdb.h */,
+				678A3D932AB24D4C00CB8C68 /* gimpui.def */,
+				678A3D942AB24D4C00CB8C68 /* gimpbrush_pdb.c */,
+				678A3D952AB24D4C00CB8C68 /* gimpplugin_pdb.c */,
+				678A3D962AB24D4C00CB8C68 /* gimpimagemetadata.h */,
+				678A3D972AB24D4C00CB8C68 /* gimplayermask.h */,
+				678A3D982AB24D4C00CB8C68 /* gimpbrushselectbutton.c */,
+				678A3D992AB24D4C00CB8C68 /* stdplugins-intl.h */,
+				678A3D9A2AB24D4C00CB8C68 /* gimplayer.c */,
+				678A3D9B2AB24D4C00CB8C68 /* gimppropchooser-private.c */,
+				678A3D9C2AB24D4C00CB8C68 /* gimp_pdb.h */,
+				678A3D9D2AB24D4C00CB8C68 /* gimphelp_pdb.h */,
+				678A3D9E2AB24D4C00CB8C68 /* gimpdisplay.h */,
+				678A3D9F2AB24D4C00CB8C68 /* gimpdrawablecolor_pdb.c */,
+				678A3DA02AB24D4C00CB8C68 /* gimpitem_pdb.h */,
+				678A3DA12AB24D4C00CB8C68 /* gimpaspectpreview.h */,
+				678A3DA22AB24D4C00CB8C68 /* gimpsaveprocedure.h */,
+				678A3DA32AB24D4C00CB8C68 /* gimpparamspecs.c */,
+				678A3DA42AB24D4C00CB8C68 /* gimpgradient_pdb.h */,
+				678A3DA52AB24D4C00CB8C68 /* gimppainttools_pdb.c */,
+				678A3DA62AB24D4C00CB8C68 /* gimpprocedure.c */,
+				678A3DA72AB24D4C00CB8C68 /* gimpchannel_pdb.h */,
+				678A3DA82AB24D4C00CB8C68 /* gimplayer_pdb.c */,
+				678A3DA92AB24D4C00CB8C68 /* gimpchannel.c */,
+				678A3DAA2AB24D4C00CB8C68 /* gimppalettes_pdb.h */,
+				678A3DAB2AB24D4C00CB8C68 /* gimp-shm.h */,
+				678A3DAC2AB24D4C00CB8C68 /* gimpmessage_pdb.h */,
+				678A3DAD2AB24D4C00CB8C68 /* gimpgimprc.h */,
+				678A3DAE2AB24D4C00CB8C68 /* gimpplugin-private.h */,
+				678A3DAF2AB24D4C00CB8C68 /* gimpui.c */,
+				678A3DB02AB24D4C00CB8C68 /* gimpfont_pdb.c */,
+				678A3DB12AB24D4C00CB8C68 /* gimpselection_pdb.c */,
+				678A3DB22AB24D4C00CB8C68 /* gimpedit_pdb.c */,
+				678A3DB32AB24D4C00CB8C68 /* gimp.h */,
+				678A3DB42AB24D4C00CB8C68 /* gimpresourceselectbutton.c */,
+				678A3DB52AB24D4C00CB8C68 /* gimpdrawable_pdb.h */,
+				678A3DB62AB24D4C00CB8C68 /* gimptextlayer.h */,
+				678A3DB72AB24D4C00CB8C68 /* gimpimagegrid_pdb.h */,
+				678A3DB82AB24D4C00CB8C68 /* gimpimageconvert_pdb.h */,
+				678A3DB92AB24D4C00CB8C68 /* gimpgradientselect_pdb.h */,
+				678A3DBA2AB24D4C00CB8C68 /* gimpimage.h */,
+				678A3DBB2AB24D4C00CB8C68 /* gimpunitcache.c */,
+				678A3DBC2AB24D4C00CB8C68 /* gimpitemtransform_pdb.c */,
+				678A3DBD2AB24D4C00CB8C68 /* gimppdb.h */,
+				678A3DBE2AB24D4C00CB8C68 /* gimpfontselectbutton.c */,
+				678A3DBF2AB24D4C00CB8C68 /* gimpfontselect_pdb.c */,
+				678A3DC02AB24D4C00CB8C68 /* gimpimageselect_pdb.h */,
+				678A3DC12AB24D4C00CB8C68 /* gimpprogressbar.c */,
+				678A3DC22AB24D4C00CB8C68 /* gimpprogress.c */,
+				678A3DC32AB24D4C00CB8C68 /* gimpdebug_pdb.c */,
+				678A3DC42AB24D4C00CB8C68 /* gimpuimarshal.list */,
+				678A3DC52AB24D4C00CB8C68 /* gimpimagemetadata-save.c */,
+				678A3DC62AB24D4C00CB8C68 /* test */,
+				678A3DC72AB24D4C00CB8C68 /* gimpimagecolorprofile_pdb.h */,
+				678A3DC82AB24D4C00CB8C68 /* gimppixbuf.c */,
+				678A3DC92AB24D4C00CB8C68 /* gimpfileprocedure.c */,
+				678A3DCA2AB24D4C00CB8C68 /* gimpitemcombobox.h */,
+				678A3DCB2AB24D4C00CB8C68 /* gimpunit_pdb.h */,
+				678A3DCC2AB24D4C00CB8C68 /* gimpimagecombobox.h */,
+				678A3DCD2AB24D4C00CB8C68 /* gimpbrushselect_pdb.h */,
+				678A3DCE2AB24D4C00CB8C68 /* gimpenums.c.tail */,
+				678A3DCF2AB24D4C00CB8C68 /* gimpprocview.c */,
+				678A3DD02AB24D4C00CB8C68 /* gimpvectors_pdb.c */,
+				678A3DD12AB24D4C00CB8C68 /* gimppaletteselect_pdb.c */,
+				678A3DD22AB24D4C00CB8C68 /* gimpprocedureconfig.c */,
+				678A3DD32AB24D4C00CB8C68 /* gimp_pdb_headers.h */,
+				678A3DD42AB24D4C00CB8C68 /* gimpparamspecs-desc.h */,
+				678A3DD52AB24D4C00CB8C68 /* gimpprocbrowserdialog.h */,
+				678A3DD62AB24D4C00CB8C68 /* gimpenums.h */,
+				678A3DD72AB24D4C00CB8C68 /* gimpimageprocedure.h */,
+				678A3DD82AB24D4C00CB8C68 /* gimpsaveproceduredialog.h */,
+				678A3DD92AB24D4C00CB8C68 /* gimpplugin.h */,
+				678A3DDA2AB24D4C00CB8C68 /* gimpdrawablepreview.c */,
+				678A3DDB2AB24D4C00CB8C68 /* gimpfloatingsel_pdb.h */,
+				678A3DDC2AB24D4C00CB8C68 /* gimpcontext_pdb.c */,
+				678A3DDD2AB24D4C00CB8C68 /* gimpexport.h */,
+				678A3DDE2AB24D4C00CB8C68 /* gimpproceduredialog.c */,
+				678A3DDF2AB24D4C00CB8C68 /* gimpitem.c */,
+				678A3DE02AB24D4C00CB8C68 /* gimpgimprc_pdb.c */,
+				678A3DE12AB24D4C00CB8C68 /* gimpgpparams.h */,
+				678A3DE22AB24D4C00CB8C68 /* gimptextlayer_pdb.h */,
+				678A3DE32AB24D4C00CB8C68 /* gimppdbprocedure.c */,
+				678A3DE42AB24D4C00CB8C68 /* gimppaletteselectbutton.h */,
+				678A3DE52AB24D4C00CB8C68 /* gimpgradients_pdb.h */,
+				678A3DE62AB24D4C00CB8C68 /* gimpfile_pdb.c */,
+				678A3DE72AB24D4C00CB8C68 /* gimpimagesamplepoints_pdb.c */,
+				678A3DE82AB24D4C00CB8C68 /* gimpprogress_pdb.c */,
+				678A3DE92AB24D4C00CB8C68 /* gimploadprocedure.c */,
+				678A3DEA2AB24D4C00CB8C68 /* gimpbatchprocedure.h */,
+				678A3DEB2AB24D4C00CB8C68 /* gimpdisplay_pdb.c */,
+				678A3DEC2AB24D4C00CB8C68 /* gimppalette_pdb.h */,
+				678A3DED2AB24D4C00CB8C68 /* gimpresource_pdb.c */,
+				678A3DEE2AB24D4C00CB8C68 /* gimpselection.h */,
+				678A3DEF2AB24D4C00CB8C68 /* gimpvectors.c */,
+				678A3DF02AB24D4C00CB8C68 /* gimppdb_pdb.c */,
+				678A3DF12AB24D4C00CB8C68 /* gimp-debug.c */,
+				678A3DF22AB24D4C00CB8C68 /* gimpimagetransform_pdb.c */,
+				678A3DF32AB24D4C00CB8C68 /* gimpzoompreview.c */,
+				678A3DF42AB24D4C00CB8C68 /* gimpdynamics_pdb.h */,
+				678A3DF52AB24D4C00CB8C68 /* gimpfonts_pdb.c */,
+				678A3DF62AB24D4C00CB8C68 /* gimpbrushes_pdb.h */,
+				678A3DF72AB24D4C00CB8C68 /* gimpimageguides_pdb.h */,
+				678A3DF82AB24D4C00CB8C68 /* gimpimageundo_pdb.h */,
+				678A3DF92AB24D4C00CB8C68 /* gimpdrawableedit_pdb.c */,
+				678A3DFA2AB24D4C00CB8C68 /* gimppatterns_pdb.c */,
+				678A3DFB2AB24D4C00CB8C68 /* gimpgradientselectbutton.h */,
+				678A3DFC2AB24D4C00CB8C68 /* gimppatternselectbutton.h */,
+				678A3DFD2AB24D4C00CB8C68 /* gimpbuffer_pdb.h */,
+				678A3DFE2AB24D4C00CB8C68 /* gimppatternselect_pdb.h */,
+				678A3DFF2AB24D4C00CB8C68 /* gimptexttool_pdb.h */,
+				678A3E002AB24D4C00CB8C68 /* gimptilebackendplugin.h */,
+				678A3E012AB24D4C00CB8C68 /* gimpimagecolorprofile.c */,
+				678A3E022AB24D4C00CB8C68 /* meson.build */,
+				678A3E032AB24D4C00CB8C68 /* gimppropchooserfactory.h */,
+				678A3E042AB24D4C00CB8C68 /* gimpthumbnailprocedure.h */,
+				678A3E052AB24D4C00CB8C68 /* gimpchannel_pdb.c */,
+				678A3E062AB24D4C00CB8C68 /* gimpprocedure.h */,
+				678A3E072AB24D4C00CB8C68 /* gimppainttools_pdb.h */,
+				678A3E082AB24D4C00CB8C68 /* gimpgradient_pdb.c */,
+				678A3E092AB24D4C00CB8C68 /* gimpparamspecs.h */,
+				678A3E0A2AB24D4C00CB8C68 /* gimpselection_pdb.h */,
+				678A3E0B2AB24D4C00CB8C68 /* gimpfont_pdb.h */,
+				678A3E0C2AB24D4C00CB8C68 /* gimpedit_pdb.h */,
+				678A3E0D2AB24D4C00CB8C68 /* gimpui.h */,
+				678A3E0E2AB24D4C00CB8C68 /* gimpmessage_pdb.c */,
+				678A3E0F2AB24D4C00CB8C68 /* gimpgimprc.c */,
+				678A3E102AB24D4C00CB8C68 /* gimp-shm.c */,
+				678A3E112AB24D4C00CB8C68 /* gimppalettes_pdb.c */,
+				678A3E122AB24D4C00CB8C68 /* gimpchannel.h */,
+				678A3E132AB24D4C00CB8C68 /* gimplayer_pdb.h */,
+				678A3E142AB24D4C00CB8C68 /* libgimp-intl.h */,
+				678A3E152AB24D4C00CB8C68 /* gimpdisplay.c */,
+				678A3E162AB24D4C00CB8C68 /* gimpdrawablecolor_pdb.h */,
+				678A3E172AB24D4C00CB8C68 /* gimpsaveprocedure.c */,
+				678A3E182AB24D4C00CB8C68 /* gimpaspectpreview.c */,
+				678A3E192AB24D4C00CB8C68 /* gimpitem_pdb.c */,
+				678A3E1A2AB24D4C00CB8C68 /* gimpbrushselectbutton.h */,
+				678A3E1B2AB24D4C00CB8C68 /* gimplayermask.c */,
+				678A3E1C2AB24D4C00CB8C68 /* gimpplugin_pdb.h */,
+				678A3E1D2AB24D4C00CB8C68 /* gimpimagemetadata.c */,
+				678A3E1E2AB24D4C00CB8C68 /* COPYING */,
+				678A3E1F2AB24D4C00CB8C68 /* gimpbrush_pdb.h */,
+				678A3E202AB24D4C00CB8C68 /* gimphelp_pdb.c */,
+				678A3E212AB24D4C00CB8C68 /* gimppropchooser-private.h */,
+				678A3E222AB24D4C00CB8C68 /* gimpprocedure-private.h */,
+				678A3E232AB24D4C00CB8C68 /* gimp_pdb.c */,
+				678A3E242AB24D4C00CB8C68 /* gimpparamspecs-body.c */,
+				678A3E252AB24D4C00CB8C68 /* gimplayer.h */,
+				678A3E262AB24D4C00CB8C68 /* gimpresource.c */,
+				678A3E272AB24D4C00CB8C68 /* gimppattern_pdb.h */,
+				678A3E282AB24D4C00CB8C68 /* gimpdrawable.h */,
+				678A3E292AB24D4C00CB8C68 /* gimpimage_pdb.c */,
+				678A3E2A2AB24D4C00CB8C68 /* Makefile.gi */,
+				678A3E2B2AB24D4C00CB8C68 /* gimpresourceselect.c */,
+				678A3E2C2AB24D4C00CB8C68 /* gimpbrushselect_pdb.c */,
+				678A3E2D2AB24D4C00CB8C68 /* gimpimagecombobox.c */,
+				678A3E2E2AB24D4C00CB8C68 /* gimpunit_pdb.c */,
+				678A3E2F2AB24D4C00CB8C68 /* gimp.def */,
+				678A3E302AB24D4C00CB8C68 /* gimpvectors_pdb.h */,
+				678A3E312AB24D4C00CB8C68 /* gimpprocview.h */,
+				678A3E322AB24D4C00CB8C68 /* gimpimagecolorprofile_pdb.c */,
+				678A3E332AB24D4C00CB8C68 /* gimpdebug_pdb.h */,
+				678A3E342AB24D4C00CB8C68 /* gimpfileprocedure.h */,
+				678A3E352AB24D4C00CB8C68 /* gimpitemcombobox.c */,
+				678A3E362AB24D4C00CB8C68 /* gimppixbuf.h */,
+				678A3E372AB24D4C00CB8C68 /* gimpitemtransform_pdb.h */,
+				678A3E382AB24D4C00CB8C68 /* gimpunitcache.h */,
+				678A3E392AB24D4C00CB8C68 /* gimpimage.c */,
+				678A3E3A2AB24D4C00CB8C68 /* gimpprogress.h */,
+				678A3E3B2AB24D4C00CB8C68 /* gimpimageselect_pdb.c */,
+				678A3E3C2AB24D4C00CB8C68 /* gimpprogressbar.h */,
+				678A3E3D2AB24D4C00CB8C68 /* gimpfontselect_pdb.h */,
+				678A3E3E2AB24D4C00CB8C68 /* gimpfontselectbutton.h */,
+				678A3E3F2AB24D4C00CB8C68 /* gimppdb.c */,
+				678A3E402AB24D4C00CB8C68 /* gimpimagegrid_pdb.c */,
+				678A3E412AB24D4C00CB8C68 /* gimptextlayer.c */,
+				678A3E422AB24D4C00CB8C68 /* gimpdrawable_pdb.c */,
+				678A3E432AB24D4C00CB8C68 /* gimpresourceselectbutton.h */,
+				678A3E442AB24D4C00CB8C68 /* gimp.c */,
+				678A3E452AB24D4C00CB8C68 /* gimpgradientselect_pdb.c */,
+				678A3E462AB24D4C00CB8C68 /* gimpimageconvert_pdb.c */,
+				678A3E472AB24D4C00CB8C68 /* gimpgradients_pdb.c */,
+				678A3E482AB24D4C00CB8C68 /* gimppdbprocedure.h */,
+				678A3E492AB24D4C00CB8C68 /* gimppaletteselectbutton.c */,
+				678A3E4A2AB24D4C00CB8C68 /* gimpbatchprocedure.c */,
+				678A3E4B2AB24D4C00CB8C68 /* gimpimagesamplepoints_pdb.h */,
+				678A3E4C2AB24D4C00CB8C68 /* gimpprogress_pdb.h */,
+				678A3E4D2AB24D4C00CB8C68 /* gimploadprocedure.h */,
+				678A3E4E2AB24D4C00CB8C68 /* gimpfile_pdb.h */,
+				678A3E4F2AB24D4C00CB8C68 /* GimpUi-3.0.metadata */,
+				678A3E502AB24D4C00CB8C68 /* gimpitem.h */,
+				678A3E512AB24D4C00CB8C68 /* gimpproceduredialog.h */,
+				678A3E522AB24D4C00CB8C68 /* gimptextlayer_pdb.c */,
+				678A3E532AB24D4C00CB8C68 /* gimpgpparams.c */,
+				678A3E542AB24D4C00CB8C68 /* gimpgimprc_pdb.h */,
+				678A3E552AB24D4C00CB8C68 /* gimpplugin.c */,
+				678A3E562AB24D4C00CB8C68 /* gimpexport.c */,
+				678A3E572AB24D4C00CB8C68 /* gimppdb-private.h */,
+				678A3E582AB24D4C00CB8C68 /* gimpcontext_pdb.h */,
+				678A3E592AB24D4C00CB8C68 /* gimpuitypes.h */,
+				678A3E5A2AB24D4C00CB8C68 /* gimpfloatingsel_pdb.c */,
+				678A3E5B2AB24D4C00CB8C68 /* gimpdrawablepreview.h */,
+				678A3E5C2AB24D4C00CB8C68 /* gimpprocedureconfig-private.h */,
+				678A3E5D2AB24D4C00CB8C68 /* gimpsaveproceduredialog.c */,
+				678A3E5E2AB24D4C00CB8C68 /* gimpimageprocedure.c */,
+				678A3E5F2AB24D4C00CB8C68 /* gimpparamspecs-desc.c */,
+				678A3E602AB24D4C00CB8C68 /* gimpprocedureconfig.h */,
+				678A3E612AB24D4C00CB8C68 /* gimpprocbrowserdialog.c */,
+				678A3E622AB24D4C00CB8C68 /* gimppaletteselect_pdb.h */,
+				678A3E632AB24D4C00CB8C68 /* gimpimagecolorprofile.h */,
+				678A3E642AB24D4C00CB8C68 /* gimptilebackendplugin.c */,
+				678A3E652AB24D4C00CB8C68 /* gimptexttool_pdb.c */,
+				678A3E662AB24D4C00CB8C68 /* gimpbuffer_pdb.c */,
+				678A3E672AB24D4C00CB8C68 /* gimppatternselect_pdb.c */,
+				678A3E682AB24D4C00CB8C68 /* gimpthumbnailprocedure.c */,
+				678A3E692AB24D4C00CB8C68 /* gimppropchooserfactory.c */,
+				678A3E6A2AB24D4C00CB8C68 /* gimpprocedure-params.h */,
+				678A3E6B2AB24D4C00CB8C68 /* gimppatternselectbutton.c */,
+				678A3E6C2AB24D4C00CB8C68 /* gimpgradientselectbutton.c */,
+				678A3E6D2AB24D4C00CB8C68 /* gimpdynamics_pdb.c */,
+				678A3E6E2AB24D4C00CB8C68 /* gimpzoompreview.h */,
+				678A3E6F2AB24D4C00CB8C68 /* gimpimagetransform_pdb.h */,
+				678A3E702AB24D4C00CB8C68 /* gimp-debug.h */,
+				678A3E712AB24D4C00CB8C68 /* gimppdb_pdb.h */,
+				678A3E722AB24D4C00CB8C68 /* gimpvectors.h */,
+				678A3E732AB24D4C00CB8C68 /* gimppatterns_pdb.h */,
+				678A3E742AB24D4C00CB8C68 /* gimpdrawableedit_pdb.h */,
+				678A3E752AB24D4C00CB8C68 /* gimpimageundo_pdb.c */,
+				678A3E762AB24D4C00CB8C68 /* gimpimageguides_pdb.c */,
+				678A3E772AB24D4C00CB8C68 /* gimpbrushes_pdb.c */,
+				678A3E782AB24D4C00CB8C68 /* gimpfonts_pdb.h */,
+				678A3E792AB24D4C00CB8C68 /* gimpgpparams-body.c */,
+				678A3E7A2AB24D4C00CB8C68 /* gimpdisplay_pdb.h */,
+				678A3E7B2AB24D4C00CB8C68 /* gimptypes.h */,
+				678A3E7C2AB24D4C00CB8C68 /* gimpresource_pdb.h */,
+				678A3E7D2AB24D4C00CB8C68 /* gimpselection.c */,
+				678A3E7E2AB24D4C00CB8C68 /* gimppalette_pdb.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		678A3D8C2AB24D4C00CB8C68 /* libgimp */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 678A3E7F2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimp" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mikiasber12/Documents/GitHub/gimp1/gimp/libgimp;
+			dependencies = (
+			);
+			name = libgimp;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgimp;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		678A3D882AB24D4C00CB8C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 678A3D8B2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A3D872AB24D4C00CB8C68;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A3D8C2AB24D4C00CB8C68 /* libgimp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		678A3D892AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		678A3D8A2AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		678A3E802AB24D4C00CB8C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimp;
+			};
+			name = Debug;
+		};
+		678A3E812AB24D4C00CB8C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgimp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A3D8B2AB24D4C00CB8C68 /* Build configuration list for PBXProject "libgimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3D892AB24D4C00CB8C68 /* Debug */,
+				678A3D8A2AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A3E7F2AB24D4C00CB8C68 /* Build configuration list for PBXLegacyTarget "libgimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A3E802AB24D4C00CB8C68 /* Debug */,
+				678A3E812AB24D4C00CB8C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A3D882AB24D4C00CB8C68 /* Project object */;
+}
